@@ -1,0 +1,160 @@
+html{
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: transparent;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* optional styling */
+#loginControlDiv {
+	font-size: 13px;
+}
+
+#navControlDiv {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#navControlDiv input {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color: #111111;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	padding: 5px 20px;
+}
+
+#navControlDiv select {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color: none;
+	color: #111111;
+	border: none;
+	outline: none;
+	padding: 5px 20px;
+}
+
+#viewControlDiv input {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color: #111111;
+	color: #ffffff;
+	border: none;
+	padding: 5px 20px;	
+}
+
+#eventDisplayDiv {
+	padding: 0px;
+	color: black;
+	background: white;
+	font-size: 12px;
+	text-align: left;
+}
+
+#statusControlDiv {
+	font-family: "Open Sans";
+	font-size: 11px;
+	color: red;
+	height: 20px;
+}
+
+/* required styling */
+
+.columnHeading {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color: #111111;
+	color: #ffffff;
+	border: none;
+	padding: 5px 20px;
+	text-align: center;
+}
+
+.weekViewCell {
+	width: 110px;
+	height: 270px;
+	border: none;
+	text-align: left;
+	background-color: #bbbbbb;
+}
+
+.monthViewCell {
+	width: 110px;
+	height: 80px;
+	border: none;
+	text-align: left;
+	background-color: #bbbbbb;
+}
+
+.contentCell {
+	padding: 2px;
+	font-size: 13px;
+	color: #111111;
+	font-family: "Oswald";
+}
+
+.eventMouseOut {
+	padding: 5px;
+	font-size: 10px;
+	color: white;	
+	background: #124899;
+	font-family: "Oswald";
+}
+
+.eventMouseOver {
+	padding: 5px;
+	font-size: 10px;
+	color: #111111;
+	background: white;
+	font-family: "Oswald";
+}
+
+#calendarBodyDiv{
+
+}
+
+div.detail{
+	background-color: #bbbbbb;
+	width: 800px;
+	height: auto;
+	margin-top: -25px;
+}
+
+div.title{
+	background-color: #111111;
+	color: #ffffff;
+	font-family: "Oswald";
+	width: 480px;
+	padding: 10px;
+	float: left;
+}
+
+div.date{
+	background-color: #124899;
+	color: #ffffff;
+	font-family: "Oswald";
+	width: 280px;
+	padding: 10px 10px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+div.description{
+	font-family: "Open Sans";
+	color: #111111;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 20px;
+}
